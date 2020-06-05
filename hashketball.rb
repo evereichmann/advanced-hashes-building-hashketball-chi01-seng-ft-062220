@@ -2,8 +2,10 @@
 def game_hash
  game_hash = 
  {:home => {
-    :team_name => {}
+    :team_name => {} 
+    #key points to a string of the team name
     :colors => {}
+    
     :players => {}
  }
   :away => {
