@@ -7,7 +7,7 @@ def game_hash
     :colors => ["Black", "White"],
    # key points to an array of strings that are that team's colors
     :players => {
-      "Alan Anderson" => {
+      {:player_name => "Alan Anderson", 
       :number => 0,
       :shoe => 16,
       :points => 22,
