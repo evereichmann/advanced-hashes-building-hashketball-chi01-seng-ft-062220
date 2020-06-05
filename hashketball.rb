@@ -105,9 +105,10 @@ def game_hash
       :assists => 12,
       :steals => 7,
       :blocks => 5,
-      :slam_dunks => 12}
-      },
- },
+      :slam_dunks => 12
+      }
+    }
+  }
  }
  end
  game_hash
