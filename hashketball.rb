@@ -2,11 +2,11 @@
 def game_hash
  game_hash = { 
    :home => {
-    :team_name => " " 
+    :team_name => " ", 
     #key points to a string of the team name
-    :colors => []
+    :colors => [],
    # key points to an array of strings that are that team's colors
-    :players => {}
+    :players => {},
      #key points to an Array of Hashes. Each Hash in the Array should contain the players' stats. Each stat should be a key that points to a value for that stat. The keys should be
  }
   :away => {
