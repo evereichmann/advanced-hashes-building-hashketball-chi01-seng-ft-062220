@@ -2,9 +2,9 @@
 def game_hash
  game_hash = { 
    :home => {
-    :team_name => " ", 
+    :team_name => "Brooklyn Nets", 
     #key points to a string of the team name
-    :colors => [],
+    :colors => ["Black", "White"],
    # key points to an array of strings that are that team's colors
     :players => {
       :player_name => ,
