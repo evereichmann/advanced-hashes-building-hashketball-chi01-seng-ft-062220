@@ -7,7 +7,7 @@ def game_hash
     :colors => ["Black", "White"],
    # key points to an array of strings that are that team's colors
     :players => {
-      :player_name => ,
+      {:player_name => ,
       :number => ,
       :shoe => ,
       :points => ,
@@ -15,7 +15,7 @@ def game_hash
       :assists => ,
       :steals => ,
       :blocks => ,
-      :slam_dunks => ,
+      :slam_dunks => },
       },
      #key points to an Array of Hashes. Each Hash in the Array should contain the players' stats. Each stat should be a key that points to a value for that stat. The keys should be
  }
